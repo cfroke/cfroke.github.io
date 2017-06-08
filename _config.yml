@@ -1,2 +1,4 @@
 name: Casey Froke, Software Engineer
 markdown: kramdown
+
+theme: jekyll-theme-midnight
