@@ -153,7 +153,6 @@ dt {
   font-weight: normal;
 }
 
-
 #header {
   z-index: 100;
   left:0;
@@ -289,6 +288,21 @@ dt {
         margin-right: 10px;
         font-size: 8px;
       }
+      .credits {
+      font-size: 8px;
+      font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      color: #696969;
+      margin-top: -10px;
+
+      &.left {
+        float: left;
+      }
+
+      &.right {
+        float: right;
+      }
+     }
     }
   }
 }
