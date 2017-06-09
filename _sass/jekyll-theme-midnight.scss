@@ -224,7 +224,7 @@ dt {
   }
 }
 #footer {
-  z-index: 100;
+  z-index: -100;
   left:0;
   top: 0px;
   height: 60px;
@@ -292,10 +292,6 @@ dt {
     }
   }
 }
-
-
-
-
 
 section {
   max-width:650px;
