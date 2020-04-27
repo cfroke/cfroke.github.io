@@ -1,5 +1,5 @@
 {
-    "name": "Portfolio-app",
+    "name": "cfroke-site",
     "version": "0.1.0",
     "private": true,
     "homepage": "https://cfroke.github.io",
@@ -9,12 +9,12 @@
         "react-dom": "^16.13.1",
         "react-scripts": "3.4.1",
         "travis": "^0.1.1",
-        "yarn": "1.13.0"
+        "yarn": "1.22.4"
     },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "predeploy": "yarn run Build",
+        "predeploy": "yarn run build",
         "deploy": "gh-pages -d build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
